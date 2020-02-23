@@ -1,0 +1,47 @@
+include gro
+set ("dt", 0.1);
+set ("population_max", POP_MAX);
+
+set ("signals", 1.0);
+set ("signals_draw", 1.0);
+
+grid("continuous", "gro_original", 10, 10, 8);
+iptg1 := s_signal([kdiff := 1.0, kdeg:= 0.0001]);
+
+//ADD_THE_OPERONS
+
+plasmids_genes([
+
+  //ADD_PLASMIDS
+
+]);
+
+
+//ADD CONJUGATION
+
+
+
+//HOW PINTING?
+
+
+//QS
+
+
+action({}, "set_growth_rate",{"0.012"});
+
+
+//Programs
+program p() :=
+{
+	skip();
+};
+
+program main() := {
+	true:
+	{
+		s_set_signal(iptg1, 50, 0, 0);
+	}
+
+	//BACTERIA
+	
+};
