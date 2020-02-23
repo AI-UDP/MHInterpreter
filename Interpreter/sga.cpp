@@ -101,7 +101,6 @@ string Conjugations(vecii &p, string c){
     return conjugation;
 }
 
-
 string AmountBacteria(vecii &p){
     ifstream filein("./sga/bacteria.txt");
     string bacteria;

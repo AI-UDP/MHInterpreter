@@ -1,0 +1,1 @@
+action({}, "s_get_QS", {tostring(iptg1), ">", "RATE", "ipXYZ"});
